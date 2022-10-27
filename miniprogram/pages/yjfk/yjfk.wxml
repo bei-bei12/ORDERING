@@ -1,0 +1,12 @@
+<!--pages/yjfk/yjfk.wxml-->
+<view class="banner">
+  <image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F02%2F24%2F67%2F59bf21c95ad16_610.jpg&refer=http%3A%2F%2Fpic.51yuansu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1667963452&t=57cd345e70f01cf35b1ceae07b9c1f61"></image>
+</view>
+<view class="yjfk">
+    <view class="yjfk-title">意见反馈：  </view>
+    <button open-type="feedback" type="primary" style="margin-top:50rpx">意见反馈</button>
+    <button open-type="contact" type="default" style="margin-top:50rpx">联系客服</button>
+</view>
+<view class="text-01">
+    您的意见是我们不断改进的动力，请留下您在使用过程中遇到的问题或提出宝贵 建议! 
+</view>

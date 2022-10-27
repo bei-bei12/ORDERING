@@ -1,0 +1,40 @@
+<!--pages/dingdan/dingdan.wxml-->
+<view class="qsy" wx:if="{{openid==''}}">
+    <view class="wdl">
+        <image src="../../images/font-ui/wdl.png"></image>
+    </view>
+    <view class="text_main">您还未授权登录，请授权登录！</view>
+    <button bindtap="getopenid" size="default" class="btn_sq" type="primary">登录</button>
+</view>
+<view wx:if="{{openid!=''}}">
+    <view class="banner">
+    <!----><image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fss2.meipian.me%2Fusers%2F56371759%2Fc774f155d4a54249aaf91afb238390a2.jpeg%3Fmeipian-raw%2Fbucket%2Fivwen%2Fkey%2FdXNlcnMvNTYzNzE3NTkvYzc3NGYxNTVkNGE1NDI0OWFhZjkxYWZiMjM4MzkwYTIuanBlZw%3D%3D%2Fsign%2Fd8feeff586efc5f17f88ec39ded3002e.jpg&refer=http%3A%2F%2Fss2.meipian.me&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1668002425&t=84f4fb7c109b7c21ef9b4120d8199ca1"></image>
+</view> 
+
+    <view class="box_main_1">
+        <view class="ban_box" bindtap="gwc">
+            <view class="zpq">
+                <image src="../../images/font-ui/gouwuche.png"></image>
+            </view>
+            <view class="text_qjj">购物车</view>
+        </view>
+        <view class="ban_box"  bindtap="ddgl">
+            <view class="zpq">
+                <image src="../../images/font-ui/chakandingdan.png"></image>
+            </view>
+            <view class="text_qjj">订单</view>
+        </view>
+        <view class="ban_box" bindtap="yqdd">
+            <view class="zpq">
+                <image src="../../images/font-ui/daipaidan.png"></image>
+            </view>
+            <view class="text_qjj">已取订单</view>
+        </view>
+        <view class="ban_box"  bindtap="cxd">
+            <view class="zpq">
+                <image src="../../images/font-ui/jiankong.png"></image>
+            </view>
+            <view class="text_qjj">诚信度</view>
+        </view>
+    </view>
+</view>
